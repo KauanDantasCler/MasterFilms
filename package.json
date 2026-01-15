@@ -3,8 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/KauanDantasCler/ProjetoSite_FilmesV2",
-
+  "homepage": "https://KauanDantasCler.github.io/ProjetoSite_FilmesV2",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
