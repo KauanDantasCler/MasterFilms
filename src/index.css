@@ -348,6 +348,11 @@ body {
     align-items: center;
     justify-content: center;
     border-radius: 4vw;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.1)),
+        url("imagens/fundosection.webp") no-repeat center/cover;
+    background-size: cover
+    ;
+    border: solid 0.5vw #0E0E25FF;
 
     .testeTitulo {
         font-family: Outfit;
@@ -362,8 +367,8 @@ body {
         font-family: Outfit;
         font-size: 2vw;
         line-height: 5vh;
-        font-weight: 400;
-        color: #171A1FE6;
+        font-weight: 700;
+        color: #0e0e0ee6;
         width: 90%;
 
     }
