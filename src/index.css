@@ -133,8 +133,8 @@ body {
     background: #0E0E25FF; 
     color: white;
     opacity: 1; 
-    width: 17vw; 
-    height: 4vw;
+    width: 25vw; 
+    height: 10vh;
     border: none; 
     border-radius: 5vw; 
     font-size: 1.5vw;
@@ -351,5 +351,69 @@ body {
     .buttonTeste:hover {
         background: #171A1FFF;
         transform: scale(1.1);
+    }
+}
+
+
+@media (max-width: 900px) {
+    .headerImg {
+        width: 80%;
+        height: 80%;
+    }
+    .tituloHeader {
+        font-size: 8vw;
+    }
+    .ButtonHeader {
+        width: 30vw; 
+        height: 8vh;
+        font-size: 4vw;
+    }
+    .mainTxt {
+        width: 90%;
+        height: auto;
+    }
+    .tituloMain {
+        font-size: 8vw;
+        width: 100%;
+        height: auto;
+    }
+    .descriçãoMain {
+        font-size: 4vw;
+        width: 100%;
+    }
+    .buttonMain {
+        width: 50vw; 
+        height: 8vh;
+        font-size: 4vw;
+    }
+    .titulo-planos {
+        font-size: 10vw;
+    }
+    .planos-titulo {
+        font-size: 6vw;
+    }
+    .planotitulo, .planotitulo2 {
+        font-size: 6vw;
+    }
+    .preço1, .preço2 {
+        font-size: 6vw;
+    }
+    p {
+        font-size: 4vw;
+    }
+    .button-plano {
+        width: 40vw; 
+        height: 10vh;
+        font-size: 4vw;
+    }
+    .testeTitulo {
+        font-size: 6vw;
+    }
+    .testeDescrição {
+        font-size: 8vw;
+    }
+    .buttonTeste {
+        width: 80vw; 
+        font-size: 4vw;
     }
 }
